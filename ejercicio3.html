@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Banderas</title>
+    <style>
+        body {
+            margin: 10px;
+        }
+        .bandera {
+            position: relative;
+            box-sizing: border-box;
+
+            margin: 10px;
+            width: 300px;
+            height: 200px;
+            border: solid 1px #000000;
+        }
+
+        /**/
+        .espana {
+            background-color: #FF0000;
+        }
+
+        .espana-franja {
+            position: absolute;
+            top: 25%;
+
+            width: 100%;
+            height: 100px;
+            background-color: #FFFF00;
+        }
+
+        /**/
+        .dinamarca {
+            background-color: #FF0000;
+        }
+
+        .dina-vertical {
+            position: absolute;
+            left: 90px;
+
+            width: 20px;
+            height: 100%;
+            background-color: #FFFFFF;
+        }
+
+        .dina-horizontal {
+            position: absolute;
+            top: 90px;
+
+            width: 100%;
+            height: 20px;
+            background-color: #FFFFFF;
+        }
+
+        /**/
+        .emiratos {
+            background-color: #FF0000;
+        }
+
+        .emi-verde {
+            position: absolute;
+            right: 0px;
+
+            width: 75%;
+            height: 66px;
+            background-color: #008000;
+        }
+
+        .emi-blanco {
+            position: absolute;
+            top: 66px;
+            right: 0px;
+
+            width: 75%;
+            height: 68px;
+            background-color: #FFFFFF;
+        }
+
+        .emi-negro {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+
+            width: 75%;
+            height: 66px;
+            background-color: #000000;
+        }
+
+        /**/
+        .japon {
+            background-color: #FFFFFF;
+        }
+
+        .circulo {
+            position: absolute;
+            top: 65px;
+            left: 115px;
+
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: #FF0000;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="bandera espana">
+        <div class="espana-franja"></div>
+    </div>
+
+    <div class="bandera dinamarca">
+        <div class="dina-vertical"></div>
+        <div class="dina-horizontal"></div>
+    </div>
+
+    <div class="bandera emiratos">
+        <div class="emi-verde"></div>
+        <div class="emi-blanco"></div>
+        <div class="emi-negro"></div>
+    </div>
+
+    <div class="bandera japon">
+        <div class="circulo"></div>
+    </div>
+
+</body>
+
+</html>
