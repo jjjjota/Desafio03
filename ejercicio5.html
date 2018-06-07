@@ -5,40 +5,37 @@
     <meta charset="UTF-8">
     <title>Ejercicio 5</title>
     <style>
+
         body {
             margin: 0px;
         }
 
-        .fondo-img {
+        .container {
             /* w:243 x h:285*/
             position: relative;
-            float: left;
-            padding: 0px;
 
+            width: 243px;
+            height: 285px;
         }
 
+        .fondo {
+            position: absolute;
+        }
+        
         .ribbon {
             position: absolute;
 
-            top: 35px;
-            left: 22px;
-        }
-
-        .ribbon-img {
-            width: 75%;
-            height: 40%;
+            width: 118%;
+            height: auto;
         }
 
     </style>
 </head>
 
 <body>
-    <div class="">
-        <img class="fondo-img" src="images/oferta_lente.jpg">
-
-        <div class="ribbon">
-            <img class="ribbon-img" src="images/ribbon.png"/>
-        </div>
+    <div class="container">
+        <img class="fondo" src="images/oferta_lente.jpg"/>
+        <img class="ribbon" src="images/ribbon.png"/>
     </div>
 </body>
 
